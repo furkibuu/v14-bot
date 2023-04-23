@@ -1,0 +1,15 @@
+{
+  "name": "v14-bot",
+  "version": "1.0.0",
+  "description": "Furki#9999 Tarafından yapıldı Github fu-w",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Furkan",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "fs": "^0.0.1-security"
+  }
+}
