@@ -4,6 +4,6 @@
 
 <img src="https://media.discordapp.net/attachments/1009933878565285888/1099661131515187292/image.png">
 
-❤ [Discord server](https://discord.gg/GeZTcbWT68)
+❤ [Discord server](https://discord.gg/6gFyuFvXt4)
 <br>
 😎[Instagram](https://www.instagram.com/furkangrns59/)
