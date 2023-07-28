@@ -1,7 +1,7 @@
 {
   "name": "v14-bot",
   "version": "1.0.0",
-  "description": "Furki#9999 Tarafından yapıldı Github fu-w",
+  "description": "furkibu Tarafından yapıldı Github fu-w",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
