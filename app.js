@@ -7,7 +7,7 @@ let { REST } = require('@discordjs/rest');
 let { Routes } = require('discord-api-types/v10');
 
 let rest = new REST({ version: '10' }).setToken(Token);
-
+// Event Loader 
 let eventFiles = readdirSync('./Client').filter(file => file.endsWith('.js'));
 
 for (let file of eventFiles) {
@@ -18,6 +18,7 @@ for (let file of eventFiles) {
 		client.on(event.name, (...args) => event.execute(...args));
 	}
 }
+// Commands Loader
 client.commands = new Collection()
 let commands = [];
 
@@ -27,7 +28,7 @@ for (let file of commandFiles) {
   commands.push(command.data.toJSON());
   client.commands.set(command.data.name, command);
 }
-
+// Slash Loader and Ready! 
 client.on("ready", async () => {
     try {
         await rest.put(
@@ -41,5 +42,5 @@ console.log(`Slash Application Online`)
 })
 
 
-
+//Token
 client.login(Token).then(console.log(`TOKEN ONLINE ✅`))
